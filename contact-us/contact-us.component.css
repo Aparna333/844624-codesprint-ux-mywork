@@ -1,0 +1,16 @@
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
+  
+  .p{position:relative;text-align:center;}
+
+  @media screen and (max-height: 450px)
+   {
+   .sidenav {padding-top: 15px;}
+   .sidenav a {font-size: 18px;}
+  
+  }
