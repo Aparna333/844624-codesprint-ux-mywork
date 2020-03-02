@@ -1,0 +1,28 @@
+
+<div class="container view">
+    <h1 class="text-center">Appointments</h1>
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">S.No</th>
+                <th scope="col">Name</th>
+                <th scope="col">Address</th>
+                <th scope="col">City</th>
+                <th scope="col">Package</th>
+                <th scope="col">Trainer Preference</th>
+                <th scope="col">Phone</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let apts of viewAppoint">
+                <th scope="row">{{apts.id}}</th>
+                <td>{{apts.firstname | uppercase}}&nbsp;{{apts.lastname | uppercase}}</td>
+                <td>{{apts.streetaddress}}</td>
+                <td>{{apts.city}}</td>
+                <td>{{apts.package}}</td>
+                <td>{{apts.preference}}</td>
+                <td>{{apts.phone}}</td>
+              </tr>
+            </tbody>
+          </table>
+</div>
