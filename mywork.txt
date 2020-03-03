@@ -1,0 +1,15 @@
+My associate id:
+844624
+Other team members:
+844549, 844620, 844538, 844589
+Team lead:
+844549
+My Role in team:
+1. To  develop contact us Reactive form and View appointment form
+My development files:
+1. ContactUs.html
+2. contactUs.ts
+3. contactUs.css
+4. ViweAppoitment  
+Feedback:
+1. Able to read codesprint document 1 day in advance will help.
